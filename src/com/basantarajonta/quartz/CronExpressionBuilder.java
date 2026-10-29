@@ -3,7 +3,7 @@
  * Copyright © 2014 by Basanta Raj Onta. All rights reserved.
  * ----------------------------------------------------------------------------
  */
-package com.mt.quartz;
+package com.basantarajonta.quartz;
 
 /**
  * Cron expression builder provides methods to make minute-based, hour-based,

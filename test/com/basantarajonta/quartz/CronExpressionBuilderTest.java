@@ -3,11 +3,11 @@
  * Copyright © 2014 by Basanta Raj Onta. All rights reserved.
  * ----------------------------------------------------------------------------
  */
-package com.mt.quartz;
+package com.basantarajonta.quartz;
 
-import com.mt.quartz.intervals.Day;
-import com.mt.quartz.intervals.Month;
-import com.mt.quartz.intervals.Rank;
+import com.basantarajonta.quartz.intervals.Day;
+import com.basantarajonta.quartz.intervals.Month;
+import com.basantarajonta.quartz.intervals.Rank;
 
 /**
  * Cron expression builder test

@@ -3,14 +3,14 @@
  * Copyright © 2014 by Basanta Raj Onta. All rights reserved.
  * ----------------------------------------------------------------------------
  */
-package com.mt.quartz;
+package com.basantarajonta.quartz;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.mt.quartz.intervals.Day;
+import com.basantarajonta.quartz.intervals.Day;
 
 /**
  * Cron expression generator to generate week based expression.

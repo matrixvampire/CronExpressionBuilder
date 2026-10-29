@@ -3,12 +3,12 @@
  * Copyright © 2014 by Basanta Raj Onta. All rights reserved.
  * ----------------------------------------------------------------------------
  */
-package com.mt.quartz;
+package com.basantarajonta.quartz;
 
 /**
  * A simple bean class to store and create cron expression. The generated
  * expression is based on <code>Quartz</code> cron format. The format is
- * comprised of 6 required fields and one optional field separated by white
+ * composed of 6 required fields and one optional field separated by white
  * space. The fields respectively are described as follows:
  *
  *
@@ -74,8 +74,7 @@ package com.mt.quartz;
  * For more information, see <code>CronExpression</code> in <code>Quartz</code>
  * API.
  *
- * @author Mobile-Technologies
- * @author Basanta Raj Onta <basanta.onta (at) mobile-technologies.com>
+ * @author Basanta Raj Onta <basanta.onta (at) gmail (dot) com>
  * @version 1.0
  */
 public class CronExpression {

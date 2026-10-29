@@ -3,7 +3,7 @@
  * Copyright © 2014 by Basanta Raj Onta. All rights reserved.
  * ----------------------------------------------------------------------------
  */
-package com.mt.quartz.intervals;
+package com.basantarajonta.quartz.intervals;
 
 /**
  * Interval enum for ranks.

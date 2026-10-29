@@ -3,23 +3,17 @@
  * Copyright © 2014 by Basanta Raj Onta. All rights reserved.
  * ----------------------------------------------------------------------------
  */
-package com.mt.quartz;
+package com.basantarajonta.quartz;
 
 /**
- * Abstract class provides methods for checking and evaluating.
+ * A <code>interface</code> implemented by all expression generator.
  *
  * @author Basanta Raj Onta <basanta.onta (at) gmail (dot) com>
  * @version 1.0
  *
  */
-public abstract class CronExpressionValidator {
+public interface CronExpressionGenerator {
 
-	public int checkAndFix(int input, int min, int max) {
-		if (input < min) {
-			input = min;
-		} else if (input > max) {
-			input = max;
-		}
-		return input;
-	}
+	public String getCronExpression();
+
 }
